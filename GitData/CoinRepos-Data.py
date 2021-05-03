@@ -173,11 +173,8 @@ def get_each_repo_metadata (gh, addresses):
 
 
 def main():
-    token_narendra = "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"
-    token_santhosh = "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"
-    token_narendra003 = "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"
-
-    gh = Github(token_santhosh)
+    token_narendra = "*******"
+    gh = Github(token_narendra)
     '''
     github_addresses = { \
         "Bitcoin": "bitcoin", \
