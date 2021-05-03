@@ -157,11 +157,9 @@ def get_improvement_repo_details (gh, address):
                                                                       top_exception.__str__()))
 
 def main():
-    token_narendra = "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"
-    token_santhosh = "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"
-    token_narendra003 = "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"
-
-    gh = Github(token_narendra003)
+    token_narendra = "*******"
+ 
+    gh = Github(token_narendra)
     improvement_proposals_github = { \
         "Bitcoin": "bitcoin-sv-specs/bips", \
         "Bitcoin-Cash": "mpatc/bcips", \
